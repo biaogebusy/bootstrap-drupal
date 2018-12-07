@@ -22,3 +22,5 @@ regions:
 libraries-extend:
   bootstrap/framework:
     - custom_front/framework
+    - custom_front/slick
+    - custom_front/holderjs

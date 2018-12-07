@@ -2,7 +2,7 @@ framework:
   css:
     theme:
       build/style.css: {}
-      build/init.js: {}
+      js/drupal.js: {}
   js:
     bootstrap/assets/javascripts/bootstrap/affix.js: {}
     bootstrap/assets/javascripts/bootstrap/alert.js: {}
@@ -16,3 +16,14 @@ framework:
     bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
     bootstrap/assets/javascripts/bootstrap/tab.js: {}
     bootstrap/assets/javascripts/bootstrap/transition.js: {}
+
+slick:
+  js:
+    js/plugins/slick/slick.min.js: { minified: true }
+    js/plugins/slick/slick.js: {}
+  dependencies:
+    - core/jquery
+
+holderjs:
+  js:
+    js/plugins/holder.min.js: { minified: true }

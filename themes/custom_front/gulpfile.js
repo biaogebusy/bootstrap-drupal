@@ -8,7 +8,7 @@ var babel = require('gulp-babel'); // es6转换
 var sourcemaps = require('gulp-sourcemaps'); // 源映射
 
 
-gulp.task('default', ['styles', 'scripts'], function () {
+gulp.task('default', ['styles'], function () {
   gulp.watch('scss/**/*.scss', ['styles']);
 });
 
