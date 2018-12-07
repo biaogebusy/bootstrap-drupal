@@ -5,7 +5,9 @@
    */
   Drupal.behaviors.slick = {
     attach: function(context) {
-      $('.carousel').slick();
+      $('.carousel').slick({
+        dots: true
+      });
     }
   }
 
