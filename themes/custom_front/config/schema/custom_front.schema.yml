@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the THEMETITLE theme.
+
+custom_front.settings:
+  type: theme_settings
+  label: 'custom_front settings'
